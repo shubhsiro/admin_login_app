@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Login App',
         theme: ThemeData(
-          primaryColor: Colors.blue,
+          primaryColor: Colors.purple[800],
         ),
         home: LoginScreen(),
         routes: {

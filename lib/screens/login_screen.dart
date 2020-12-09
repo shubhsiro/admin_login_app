@@ -87,8 +87,10 @@ class _LoginScreenState extends State<LoginScreen> {
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 colors: [
-                  Colors.lightGreenAccent,
-                  Colors.blue,
+                  Colors.deepPurpleAccent,
+                  Colors.white,
+                  Colors.white,
+                  Colors.deepPurpleAccent,
                 ]
               )
             ),
@@ -149,6 +151,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           child: Text(
                             'Submit'
                           ),
+                          color:Colors.purple[800],
                           onPressed: ()
                           {
                             _submit();
@@ -156,7 +159,6 @@ class _LoginScreenState extends State<LoginScreen> {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30),
                           ),
-                          color: Colors.blue,
                           textColor: Colors.white,
                         )
                       ],

@@ -89,8 +89,11 @@ class _SignupScreenState extends State<SignupScreen> {
             decoration: BoxDecoration(
                 gradient: LinearGradient(
                     colors: [
-                      Colors.limeAccent,
-                      Colors.redAccent,
+                      Colors.white,
+                      Colors.deepPurpleAccent,
+                      Colors.white,
+                      Colors.deepPurpleAccent,
+                      Colors.white,
                     ]
                 )
             ),
@@ -177,7 +180,7 @@ class _SignupScreenState extends State<SignupScreen> {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30),
                           ),
-                          color: Colors.blue,
+                          color: Colors.purple[800],
                           textColor: Colors.white,
                         )
                       ],
