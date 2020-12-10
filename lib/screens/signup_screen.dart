@@ -85,14 +85,23 @@ class _SignupScreenState extends State<SignupScreen> {
       ),
       body: Stack(
         children: <Widget>[
+          new Container(
+              width: 10.00,
+              height: 10.00,
+              decoration: new BoxDecoration(
+                image: new DecorationImage(
+                  image: AssetImage('assets/images/signup.png'),
+                  fit: BoxFit.cover,
+                ),
+              )),
           Container(
             decoration: BoxDecoration(
                 gradient: LinearGradient(
                     colors: [
                       Colors.white,
-                      Colors.deepPurpleAccent,
+                      //Colors.deepPurpleAccent,
                       Colors.white,
-                      Colors.deepPurpleAccent,
+                      //Colors.deepPurpleAccent,
                       Colors.white,
                     ]
                 )

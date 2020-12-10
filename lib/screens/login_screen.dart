@@ -83,7 +83,16 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
       body: Stack(
         children: <Widget>[
-          Image.asset('assets/images/signup.png',height: 20.0, width:30.0),
+          //Image.asset('assets/images/signup.png',height: 20.0, width:30.0),
+          new Container(
+            width: 10.00,
+            height: 10.00,
+            decoration: new BoxDecoration(
+            image: new DecorationImage(
+              image: AssetImage('assets/images/signup.png'),
+              fit: BoxFit.fill,
+            ),
+          )),
           Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
