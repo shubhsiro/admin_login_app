@@ -83,14 +83,15 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
       body: Stack(
         children: <Widget>[
+          Image.asset('assets/images/signup.png',height: 20.0, width:30.0),
           Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 colors: [
-                  Colors.deepPurpleAccent,
+                  //Colors.deepPurpleAccent,
                   Colors.white,
                   Colors.white,
-                  Colors.deepPurpleAccent,
+                  //Colors.deepPurpleAccent,
                 ]
               )
             ),
@@ -98,7 +99,7 @@ class _LoginScreenState extends State<LoginScreen> {
           Center(
             child: Card(
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10.0),
+                borderRadius: BorderRadius.circular(50.0),
               ),
               child: Container(
                 height: 260,
